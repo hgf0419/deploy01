@@ -1,0 +1,19 @@
+name: GitHub Actions Build and Deploy Demo
+on: # 监听 master 分支上的 push 事件
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # 构建环境使用 ubuntu
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: dist
+        BUILD_SCRIPT: npm install && npm run build

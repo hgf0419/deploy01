@@ -1,7 +1,6 @@
 # rocket 01
 
-自动化部署
-
+使用GitHub actions部署Vue3项目的demo
 
 ## Project Setup
 

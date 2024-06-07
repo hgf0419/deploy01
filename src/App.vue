@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld msg="rocket 01" />
+      <HelloWorld msg="deploy 01" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>

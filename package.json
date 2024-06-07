@@ -1,9 +1,9 @@
 {
-  "name": "rocket01",
-  "version": "0.0.0",
+  "name": "deploy01",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://hgf0419.github.io/rocket01",
+  "homepage": "https://hgf0419.github.io/deploy01",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

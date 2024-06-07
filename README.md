@@ -1,6 +1,5 @@
-# rocket 01
-
-使用GitHub actions部署Vue3项目的demo
+# deploy01
+使用 Github Actions 部署到 Github Page
 
 ## Project Setup
 

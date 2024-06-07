@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-  <main>长征一号</main>
+  <main>home...</main>
 </template>

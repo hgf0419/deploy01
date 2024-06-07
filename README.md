@@ -1,6 +1,9 @@
 # deploy01
 使用 Github Actions 部署到 Github Page
 
+## Preview
+[Preview](https://hgf0419.github.io/deploy01/)
+
 ## Project Setup
 
 ```sh

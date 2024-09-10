@@ -58,4 +58,4 @@ jobs:
 ```
 
 ## 参考
-[使用 Github Actions 部署到 Github Page](https://cn.vitejs.dev/guide/static-deploy)
+[Vite部署](https://cn.vitejs.dev/guide/static-deploy)

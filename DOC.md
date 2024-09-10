@@ -1,10 +1,16 @@
+# 介绍
+使用 Github Actions 部署到 Github Page
+
+## 操作
+在项目的 .github/workflows 目录中创建一个名为 deploy.yml 的文件，其中包含这样的内容：
+```yml
 # 将静态内容部署到 GitHub Pages 的简易工作流程
 name: Deploy static content to Pages
 
 on:
   # 仅在推送到默认分支时运行。
   push:
-    branches: ['master']
+    branches: ['main']
 
   # 这个选项可以使你手动在 Action tab 页面触发工作流
   workflow_dispatch:
@@ -49,3 +55,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+```
+
+## 参考
+[使用 Github Actions 部署到 Github Page](https://cn.vitejs.dev/guide/static-deploy)
